@@ -1,5 +1,5 @@
 /*Effect for home page*/
-#main-blur-bg{ animation: bgBlur 2s forwards 4s}
+#main-blur-bg{ animation: bgBlur 1s forwards 4s}
 
 @keyframes bgBlur {
     to{width: 600px;}
@@ -7,7 +7,7 @@
 
 
 /*Effect for loading page*/
-#loading{animation: loading 2s forwards 4s}
+#loading{animation: loading 2s forwards 3s}
 
 @keyframes loading {
     to{opacity: 0}
