@@ -94,7 +94,8 @@ form input{
     width: 130px;
     height: 130px;
     margin-bottom: 2rem;
-    background-color: rgba(198, 198, 198, 0.2);
+    background-color: rgba(198, 198, 198, 0.4);
+    border: 2px solid white;
     border-radius: 50%;
 }
 

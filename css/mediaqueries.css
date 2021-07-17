@@ -1,0 +1,90 @@
+@media screen and (max-width:768px) {
+
+    main{
+        background-size: cover;
+        display: grid;
+        place-items: center;
+    }
+
+    #main-blur-bg{
+        width: 100%;
+        height: 100%;
+        animation: bgBlur-Ipad 2s forwards 4s;
+    }
+
+    header{
+       margin-top: -6rem;
+    }
+
+    h1{
+        font-size: 3.5rem;
+        margin-left: 0;
+    }
+
+    .result-content{
+        width: 110px;
+        height: 110px;
+    }
+
+    .result-content img{
+        width: 4rem;
+        transform: translate(60px, -40px);
+    }
+
+    .result-content p{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    #loading{
+        width: 270px;
+    }
+
+    header{
+       margin-top: -4rem;
+    }
+
+    .title{
+        letter-spacing: 1rem;
+    }
+
+    h1{
+        font-size: 1.8rem;
+        margin-left: 0;
+    }
+    
+    h2{
+        font-size: 1.2rem;
+    }
+
+    #icon-list{
+        margin-top: -1rem;
+    }
+
+    #icon-list img{
+        width: 1.5rem;
+        margin: 0px 5px;
+    }
+
+    #btn-calc{
+        width: 100px;
+        padding: 5px;
+    }
+
+    .result-content{
+        width: 90px;
+        height: 90px;
+    }
+
+    .result-content img{
+        width: 3rem;
+        transform: translate(60px, -40px);
+    }
+
+    .result-content p{
+        font-size: 1.7rem;
+        line-height: 90px;
+    }
+}

@@ -1,19 +1,29 @@
-#main-blur-bg{ animation: bgBlur 3s forwards 5s}
+/*Effect for home page*/
+#main-blur-bg{ animation: bgBlur 2s forwards 4s}
 
 @keyframes bgBlur {
     to{width: 600px;}
 }
 
+
+/*Effect for loading page*/
+#loading{animation: loading 2s forwards 4s}
+
+@keyframes loading {
+    to{opacity: 0}
+}
+
+/*Effect for content page*/
 header {
-    animation: showContent 2s forwards 9s ;
+    animation: showContent 1s forwards 6s ;
 }
 
 #form-content{
-    animation: showContent 2s forwards 10s;
+    animation: showContent 1s forwards 7s;
 }
 
 #result-box{
-    animation: showContent 2s forwards 11s;
+    animation: showContent 1s forwards 8s;
 }
 
 @keyframes showContent {
@@ -22,6 +32,7 @@ header {
         opacity: 1;
     }
 }
+
 
 /*Effect for Ipad*/
 @keyframes bgBlur-Ipad {
