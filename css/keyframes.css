@@ -1,0 +1,34 @@
+#main-blur-bg{ animation: bgBlur 3s forwards 5s}
+
+@keyframes bgBlur {
+    to{width: 600px;}
+}
+
+header {
+    animation: showContent 2s forwards 9s ;
+}
+
+#form-content{
+    animation: showContent 2s forwards 10s;
+}
+
+#result-box{
+    animation: showContent 2s forwards 11s;
+}
+
+@keyframes showContent {
+    to{
+        transform: translateY(-5%);
+        opacity: 1;
+    }
+}
+
+/*Effect for Ipad*/
+@keyframes bgBlur-Ipad {
+    to{height: 65%}
+}
+
+/*Effect for Smartphone*/
+@keyframes bgBlur-Ipad {
+    to{height: 75%}
+}
