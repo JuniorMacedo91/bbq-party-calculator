@@ -1,5 +1,5 @@
 /*Effect for home page*/
-#main-blur-bg{ animation: bgBlur 1s forwards 4s}
+#main-blur-bg{ animation: bgBlur 2s forwards 4s}
 
 @keyframes bgBlur {
     to{width: 600px;}
@@ -7,23 +7,24 @@
 
 
 /*Effect for loading page*/
-#loading{animation: loading 2s forwards 3s}
+#main-blur-bg::before{animation: loading 2s forwards 3s}
 
 @keyframes loading {
     to{opacity: 0}
 }
 
+
 /*Effect for content page*/
 header {
-    animation: showContent 1s forwards 6s ;
+    animation: showContent .2s forwards 6s ;
 }
 
 #form-content{
-    animation: showContent 1s forwards 7s;
+    animation: showContent .3s forwards 7s;
 }
 
 #result-box{
-    animation: showContent 1s forwards 8s;
+    animation: showContent .4s forwards 8s;
 }
 
 @keyframes showContent {

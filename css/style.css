@@ -1,6 +1,4 @@
-header{
-    width: 100%;
- }
+header{width: 100%;}
 
 .title{
     font-family: 'Alfa Slab One', cursive;
@@ -14,9 +12,7 @@ h1{
     margin-left: -23rem;
 }
 
-h2{
-    font-size: 2rem;
-}
+h2{font-size: 2rem;}
 
 ul{
     position: absolute;
@@ -32,9 +28,7 @@ ul{
     transition: ease .2s;
 }
 
-#icon-list img:hover{
-    transform: scale(1.1);
-}
+#icon-list img:hover{transform: scale(1.1);}
 
 form{
     display: grid;
@@ -51,9 +45,7 @@ form input{
     background-color: transparent;
 }
 
-::placeholder{
-    color: white;
-}
+::placeholder{color: white;}
 
 #adultNumber{
     background: url(../assets/adults.png) no-repeat left ;
