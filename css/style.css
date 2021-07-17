@@ -1,0 +1,110 @@
+header{
+    width: 100%;
+ }
+
+.title{
+    font-family: 'Alfa Slab One', cursive;
+    text-transform: uppercase;
+    letter-spacing: 2rem;
+    font-weight: lighter;
+}
+
+h1{
+    font-size: 4.5rem;
+    margin-left: -23rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+ul{
+    position: absolute;
+    display: flex;
+    top: 0;
+    right: 0;
+}
+
+#icon-list img{
+    width: 2rem;
+    margin: 0px 10px;
+    -webkit-box-reflect: below 4px linear-gradient(to top, rgba(0, 0, 0, 0.1), transparent, transparent);
+    transition: ease .2s;
+}
+
+#icon-list img:hover{
+    transform: scale(1.1);
+}
+
+form{
+    display: grid;
+    place-items: center;
+}
+
+form input{
+    margin-bottom: 12px;
+    padding: 10px 0 5px 10px;
+    font-size:1rem;
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+}
+
+::placeholder{
+    color: white;
+}
+
+#adultNumber{
+    background: url(../assets/adults.png) no-repeat left ;
+    background-size: 1.8rem;
+}
+
+#kidsNumber{
+    background: url(../assets/children.png) no-repeat left  ;
+    background-size: 1.8rem;
+}
+
+#duration{
+    background: url(../assets/clock.png) no-repeat left ;
+    background-size: 1.8rem;
+}
+
+#btn-calc{
+    width: 130px;
+    margin-top: 1rem;
+    padding: 7px;
+    font-size: 1rem;
+    background-color: transparent;
+    border: 1px solid white;
+    -webkit-box-reflect: below 4px linear-gradient(to top, rgba(0, 0, 0, 0.2), transparent, transparent);
+    cursor: pointer;
+    transition: ease .2s;
+}
+
+#btn-calc:hover{
+    transform: scale(1.04);
+    background:#fff;
+    color: black;
+    font-weight: bolder;
+}
+
+.result-content{
+    position: relative;
+    width: 130px;
+    height: 130px;
+    margin-bottom: 2rem;
+    background-color: rgba(198, 198, 198, 0.2);
+    border-radius: 50%;
+}
+
+.result-content img{
+    width: 5rem;
+    transform: translate(60px, -30px);
+}
+
+.result-content p{
+    font-size: 2.5rem;
+    line-height: 100px;
+    text-align: center;
+}
