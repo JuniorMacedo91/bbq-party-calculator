@@ -30,10 +30,10 @@ main{
     backdrop-filter: blur(10px);
 }
 
-/*#main-blur-bg::before{
+#main-blur-bg::before{
     content: url(../assets/burg.gif);
     position: absolute;
-}*/
+}
 
 .main-blur-content{
     position: relative;
@@ -57,6 +57,6 @@ main{
     justify-content: space-around;
 }
 
-header, #form-wrapper, #result-box{
-    opacity: 1;
+header, #form-wrapper{
+    opacity: 0;
 }

@@ -19,7 +19,7 @@ header {
     animation: showContent .2s forwards 6s ;
 }
 
-#form-content{
+#form-wrapper{
     animation: showContent .3s forwards 7s;
 }
 
