@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Churrascômetro</title>
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/default.css">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/keyframes.css">
     <link rel="stylesheet" href="./css/mediaqueries.css">
-    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/mediaqueries.css">
 </head>
 <body>
     <main>
@@ -23,25 +23,15 @@
                         <li><a href="https://www.linkedin.com/in/osmar-m/" target="_blank"><li><img src="./assets/linkedin.png" alt="Linkedin Icon"></a></li>
                     </ul>
                 </header>
-                <section id="form-content">
-                    <form>
+                <section id="form-wrapper">
+                    <div id="form-content">
                         <input type="text" name="adultNumber" id="adultNumber" placeholder="Adultos" required>          
                         <input type="text" name="kidsNumber" id="kidsNumber" placeholder="Crianças" required>           
                         <input type="text" name="duration" id="duration" placeholder="Duração" required>
                         <button id="btn-calc">Calcular</button>
-                    </form>
+                    </div>
                 </section>
-                <section id="result-box">
-                    <div class="result-content">
-                        <p>5 Kg</p>
-                        <img src="./assets/ham-leg.png" alt=""></div>
-                    <div class="result-content">
-                        <p>10 L</p>
-                        <img src="./assets/beer.png" alt=""></div>
-                    <div class="result-content">
-                        <p>5 L</p>
-                        <img src="./assets/softdrinks.png" alt=""></div>
-                </section>
+                <section id="result-box"></section>
             </div>
         </div>
     </main>
