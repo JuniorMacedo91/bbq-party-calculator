@@ -23,10 +23,6 @@ header {
     animation: showContent .3s forwards 7s;
 }
 
-#result-box{
-    animation: showContent .4s forwards 8s;
-}
-
 @keyframes showContent {
     to{
         transform: translateY(-5%);
