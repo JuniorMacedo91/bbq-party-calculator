@@ -1,29 +1,49 @@
-// Carne - 500 gr por pessoa  + de 4 horas - 750g
-// Cerveja - 1000ml por Pessoa + 4 horas - 2000 ml
-// Refrigerante/agua - 1000 ml por pessoa + 4 horas 1500ml
-
-// Crianças valem por 0,5;
-
 const adultInput = document.querySelector('#adultNumber');
 const kidsInput = document.querySelector('#kidsNumber');
 const timeInput = document.querySelector('#duration');
-const calc = document.getElementById('btn-calc')
+const calcBtn = document.querySelector('#btn-calc')
 const resultBox = document.querySelector('#result-box')
 
-calc.addEventListener('click',function() {
-    const foodResult = document.createElement('div')
-    foodResult.innerHTML = `<p id="food-result">${adultInput.value} Kg </p> <img src="./assets/ham-leg.png" alt="food picture"> `;
-    foodResult.classList.add('result-content')
-
-    const beerResult = document.createElement('div')
-    beerResult.innerHTML = `<p id="beer">${kidsInput.value} Kg </p> <img src="./assets/beer.png" alt="beer picture"> `;
-    beerResult.classList.add('result-content')
-
-    const drinkResult = document.createElement('div')
-    drinkResult.innerHTML = `<p id="softdrinks">${timeInput.value} Kg </p> <img src="./assets/softdrinks.png" alt="softdrinks picture">`
-    drinkResult.classList.add('result-content')
-
-    resultBox.appendChild(foodResult)
-    resultBox.appendChild(beerResult)
-    resultBox.appendChild(drinkResult)
+calcBtn.addEventListener('click', function(){
+    if(adultInput.value ===''|| kidsInput.value ===''|| timeInput.value ===''){
+        alert('Preencha todos os campos')
+    } else{
+        resultBox.innerHTML += `<div class="result-content meat"><p> ${calcMeat(timeInput)} Kg</p> <img src="./assets/ham-leg.png" alt=" food icon"></div>`; 
+        resultBox.innerHTML += `<div class="result-content beer"><p> ${calcBeer(timeInput)} L</p> <img src="./assets/beer.png" alt="beer icon"></div>`; 
+        resultBox.innerHTML += `<div class="result-content drink"><p> ${calcDrink(timeInput)} L</p> <img src="./assets/softdrinks.png" alt="drinks icon"></div>`;
+    }
 })
+
+function calcMeat(timeInput){
+    const meatPerFourH = 0.5;
+    const meatPermoreH = 0.75;
+
+    if(timeInput.value <= 4){
+       return (meatPerFourH * adultInput.value) + (kidsInput.value * (meatPerFourH / 2));
+    } 
+    else {
+        return (meatPermoreH * adultInput.value) + (kidsInput.value * (meatPermoreH / 2));
+    }
+}   
+
+function calcBeer(timeInput){
+    const beerPerFourH = 1.000;
+    const beerPermoreH = 1.200;
+
+    if(timeInput.value <=4){
+        return (beerPerFourH * adultInput.value)
+    } else{
+        return ( beerPermoreH * adultInput.value)
+    }
+}
+
+function calcDrink(timeInput){
+    const drinkPerFourH = 1.000;
+    const drinkPermoreH = 1.500;
+
+    if(timeInput.value <=4){
+        return (drinkPerFourH * Number(adultInput.value) + Number(kidsInput.value))
+    } else{
+        return (drinkPermoreH * Number(adultInput.value) + Number(kidsInput.value))
+    }
+}
