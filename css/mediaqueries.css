@@ -33,11 +33,21 @@
     }
 
     .result-content p{
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 }
 
 @media screen and (max-width:500px){
+
+    #main-blur-bg::before{
+        position: absolute;
+        content: url(../assets/burg.gif);
+        transform: scale(.5);
+    }
+
+    #main-blur-bg{
+        animation: bgBlur-phone 2s forwards 4s;
+    }
 
     header{
        margin-top: -4rem;
@@ -78,11 +88,11 @@
 
     .result-content img{
         width: 3rem;
-        transform: translate(50px, -40px);
+        transform: translate(50px, -20px);
     }
 
     .result-content p{
-        font-size: 1.7rem;
-        line-height: 90px;
+        font-size: 1.2rem;
+        line-height: 70px;
     }
 }
