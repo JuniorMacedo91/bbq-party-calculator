@@ -10,7 +10,7 @@ Sistema desenvolvido para calcular a quantidade aproximadamente em carnes, cerve
 Com base em algumas informações de especialistas em churrasco, foi considerado para uma festa de 4 horas:
 - 500 kg de carne;
 - 1200 ml de cerveja;
-- 1000 litros de refrigerante;
+- 1000 ml de refrigerante;
 
 Acima de 4h horas, foi considerado:
 - 650 kg de carne;
