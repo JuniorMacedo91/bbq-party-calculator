@@ -13,7 +13,6 @@
     to{opacity: 0}
 }
 
-
 /*Effect for content page*/
 header {
     animation: showContent .2s forwards 6s ;

@@ -37,15 +37,16 @@
     }
 }
 
-@media screen and (max-width:500px){
+@media screen and (max-width:420px){
 
     #main-blur-bg::before{
         position: absolute;
-        content: url(../assets/burg.gif);
-        transform: scale(.5);
+        content: url(../assets/loading-gif.gif);
+        transform: scale(.6);
     }
 
     #main-blur-bg{
+        width: 100%;
         animation: bgBlur-phone 2s forwards 4s;
     }
 

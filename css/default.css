@@ -28,11 +28,14 @@ main{
     height: 100%;
     right: 0;
     backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 }
 
 #main-blur-bg::before{
-    content: url(../assets/burg.gif);
+    content: url(../assets/loading-gif.gif);
     position: absolute;
+    transform: scale(1.5);
+    filter: brightness(10);
 }
 
 .main-blur-content{
