@@ -9,8 +9,12 @@ calcBtn.addEventListener('click', function(){
         alert('Preencha todos os campos')
     } else{
         resultBox.innerHTML = `<div class="result-content meat"><p> ${calcMeat(timeInput).toFixed(1)} Kg</p> <img src="./assets/ham-leg.png" alt=" food icon"></div>`; 
-        resultBox.innerHTML += `<div class="result-content beer"><p> ${calcBeer(timeInput)} L</p> <img src="./assets/beer.png" alt="beer icon"></div>`; 
-        resultBox.innerHTML += `<div class="result-content drink"><p> ${calcDrink(timeInput)} L</p> <img src="./assets/softdrinks.png" alt="drinks icon"></div>`;
+        resultBox.innerHTML += `<div class="result-content beer"><p> ${calcBeer(timeInput).toFixed(1)} L</p> <img src="./assets/beer.png" alt="beer icon"></div>`; 
+        resultBox.innerHTML += `<div class="result-content drink"><p> ${calcDrink(timeInput).toFixed(1)} L</p> <img src="./assets/softdrinks.png" alt="drinks icon"></div>`;
+
+        adultInput.value =" "
+        kidsInput.value = " "
+        timeInput.value = " "
     }
 })
 
