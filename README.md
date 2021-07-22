@@ -4,6 +4,13 @@ Projeto aplicado para fixar lógica de programação em JavaScript através do c
 ## Deploy:
 https://juniormacedo91.github.io/churrascometro/
 
+## Projeto:
+
+<p align="center">
+  <img src="churrasPic.png" width="700px">
+  <img src="responsive.png" width="200px">
+</p>
+
 ## Descrição:
 Sistema desenvolvido para calcular a quantidade aproximadamente em carnes, cervejas e bebidas para um churrasco.
 
@@ -21,7 +28,7 @@ Para crianças, consideramos metade de todos os insumos. Desconsiderando cerveja
 
 ## Ferramentas de JavaScript:
 
-No JavaScript, criei funcções para retornar valores das carnes, refrigerantes e cervejas de acordo horário do churrasco.
+No JavaScript, criei funções para retornar valores das carnes, refrigerantes e cervejas de acordo horário do churrasco.
 Uma forma de compreender a lógica de funções, utilizando parâmetros.
 
 ## Principais desafios:
@@ -30,12 +37,6 @@ Uma forma de compreender a lógica de funções, utilizando parâmetros.
 - Criar um código limpo, auto-explicativo;
 - Fixar melhor os conceitos e práticas em responsividade;
 - Fixar melhor os conceitos em keyframes;
-
-## Projeto:
-
-<p align="center">
-  <img src="todolist.gif" width="500px">
-</p>
 
 ## Tecnologias:
 
