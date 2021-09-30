@@ -1,44 +1,41 @@
-# churrascometro
-Projeto aplicado para fixar lógica de programação em JavaScript através do curso Programador BR.
-
-## Deploy:
-https://juniormacedo91.github.io/churrascometro/
-
-## Projeto:
+# <p align="center"> BBQ Party Calculator </p>
 
 <p align="center">
   <img src="churrasPic.png" width="700px">
+</p>
+
+## About:
+This application is able to calculate an amount of meats, drinks and beers for a party.
+In this project the goal is to practice programming logic in Javascript.
+
+
+In accordance with some informations, a party lasting 4 hours:
+
+- 500 kg of meat;
+- 1500 ml of beer;
+- 1000 ml of soft-drink;
+
+More than 4 hours hours:
+
+- 650 kg of meat;
+- 2000 ml of beer;
+- 1500 ml of soft-drink;
+
+For kids it is considered a half of everything. And beers is not allowed .
+
+# Responsive Layout:
+<p align="center">
   <img src="responsive.png" width="200px">
 </p>
 
-## Descrição:
-Sistema desenvolvido para calcular a quantidade aproximadamente em carnes, cervejas e bebidas para um churrasco.
+## Main Challenges:
 
-Com base em algumas informações de especialistas em churrasco, foi considerado para uma festa de 4 horas:
-- 500 kg de carne;
-- 1200 ml de cerveja;
-- 1000 ml de refrigerante;
+- To build a right logic to calculate;
+- Clean code method;
+- Understand more about a reponsive web page;
+- To build keyframes;
 
-Acima de 4h horas, foi considerado:
-- 650 kg de carne;
-- 2000 ml de cerveja;
-- 1500 ml de refrigerante;
-
-Para crianças, consideramos metade de todos os insumos. Desconsiderando cervejas.
-
-## Ferramentas de JavaScript:
-
-No JavaScript, criei funções para retornar valores das carnes, refrigerantes e cervejas de acordo horário do churrasco.
-Uma forma de compreender a lógica de funções, utilizando parâmetros.
-
-## Principais desafios:
-
-- Estruturar a lógica para o calculo;
-- Criar um código limpo, auto-explicativo;
-- Fixar melhor os conceitos e práticas em responsividade;
-- Fixar melhor os conceitos em keyframes;
-
-## Tecnologias:
+## Skills:
 
 [![HTML](https://img.shields.io/badge/HTML-red?style=for-the-badge&logo=HTML5&labelColor=black)](https://github.com/JuniorMacedo91)
 [![CSS](https://img.shields.io/badge/CSS3-blue?style=for-the-badge&logo=CSS3&labelColor=black)](https://github.com/JuniorMacedo91)
